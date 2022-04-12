@@ -4,6 +4,6 @@ import uiSlice from './ui-slice';
 
 const rootStore = configureStore({
     reducer: {ui: uiSlice.reducer, cart: cartSlice.reducer}
-})
+});
 
 export default rootStore;
